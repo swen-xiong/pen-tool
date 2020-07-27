@@ -26,7 +26,7 @@ async function compile() {
     file: 'index.esm.js',
     format: 'esm',
     name: 'PenTool',
-    sourcemap: true
+    sourcemap: false
   })
   bundle.write({
     file: 'index.umd.js',
